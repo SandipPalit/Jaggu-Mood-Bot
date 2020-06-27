@@ -1,0 +1,114 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- thanks
+- love
+responses:
+  utter_greet:
+  - text: Hey.. How are you?
+  - text: Hello.. How are you?
+  - text: Hi.. How are you?
+  utter_welcome:
+  - text: You're welcome
+  utter_love_quotes:
+  - text: I think the perfection of love is that it's not perfect. - Taylor Swift
+  - text: The best and most beautiful things in this world cannot be seen or even heard, but must be felt with the heart. - Helen Keller
+  - text: Life without love is like a tree without blossoms or fruit. - Khalil Gibran
+  - text: You know you're in love when you can't fall asleep because reality is finally better than your dreams. - Dr. Seuss
+  - text: Love recognizes no barriers. It jumps hurdles, leaps fences, penetrates walls to arrive at its destination full of hope. - Maya Angelou
+  - text: Some love stories aren't epic novels. Some are short stories. But that doesn't make them any less filled with love. - Carrie Bradshaw in Sex and the City
+  - text: As he read, I fell in love the way you fall asleep, slowly, and then all at once. - John Green, The Fault in Our Stars
+  - text: I am who I am because of you. - Nicholas Sparks, The Notebook
+  - text: I loved her against reason, against promise, against peace, against hope, against happiness, against all discouragement that could be. - Charles Dickens, Great Expectations
+  - text: Love does not dominate; it cultivates. - Johann Wolfgang von Goethe
+  utter_cheer_up:
+  - text: Police arrested two kids yesterday, one was drinking battery acid,
+      the other was eating fireworks. They charged one - and let the other off.
+  - text: I went to buy some camouflage trousers the other day - but I couldn't
+      find any.
+  - text: Did you hear about the man who was hospitalized with six plastic
+      horses inside him? The doctor described his condition as stable.
+  - text: I was having dinner with Garry Kasporov (world chess champion)
+      and there was a check tablecloth. It took him two hours to pass me the salt.
+  - text: Have you ever noticed that every town is named after its water
+      tower?
+  - text: I never trust the stairs. They are always up to something..
+  - text: You know how people don't wear watches anymore? So I collected
+      a bunch and turn them into a belt , but it turned out to be a waist of time.
+  - text: Did you guys hear about the farmer who won the big award? I guess
+      he was out standing in his field..
+  - text: If a bakery always wants you to pose with their baked goods for
+      their advertising, does that make you a perfect..   ..roll model?
+  - text: Has anyone actually ever been shabby? Because  oftentimes I’ll
+      ask someone how they are and I hear, “Not too shabby!” I’ve never had a day
+      in which I’ve experienced any measurable amount of shab, much less too much
+      of it!
+  - text: I know hunting wild game can be extremely controversial, but I
+      just love the taste of elephant ears, bear claws and even the exotic monkey
+      bread.
+  - text: I get so happy when I watch people do u turns because I know they
+      have turned their life around.
+  - text: I bought a dog off a blacksmith today as soon as I got it home
+      it made a bolt for the door.
+  - text: Most people are born on their birthday!!
+  - text: Two wrongs don't make a Right, but Two Wrights can make an airplane!!
+  - text: I accidentally cut my wrist at work today... so I put my watch
+      on covering the cut because time heals all wounds.
+  - text: If Apple makes a car. Will it have Windows?
+  - text: If a priest blessed an avocado, would it be holy guacamole?
+  - text: What kind of Doctor is Dr Pepper? A fizzician.
+  - text: Bartenders make pour decisions!
+  utter_pikachu:
+  - image: https://i.pinimg.com/564x/c5/e1/f9/c5e1f972687050d58db58b9277bc83ae.jpg
+    text: Pika Pika!!
+  utter_depression_symptoms:
+  - text: Being unhappy isn’t the same as being depressed. Depression is
+      a term often used loosely to describe how we feel after a bad week at work or
+      when we’re going through a breakup. But major depressive disorder — a type of
+      depression — is much more complicated. There are specific symptoms that determine
+      whether it’s depression or the sadness we all sometimes experience in life.
+      Follow this link ->   https://www.healthline.com/health/depression/recognizing-symptoms/
+  utter_is_depressed:
+  - text: Can you relate to these symptoms?
+  utter_depression:
+  - text: Depression is a common illness worldwide, with more than 264 million
+      people affected. Depression is different from usual mood fluctuations and short-lived
+      emotional responses to challenges in everyday life. Especially when long-lasting
+      and with moderate or severe intensity, depression may become a serious health
+      condition. It can cause the affected person to suffer greatly and function poorly
+      at work, at school and in the family. At its worst, depression can lead to suicide.
+  utter_want_cure:
+  - text: Do you want to get out of this?
+  utter_depression_cure:
+  - text: Along with therapy and sometimes medication, there's a lot you
+      can do on your own to fight back. These tips can help you feel better. Follow
+      this link ->  https://www.webmd.com/depression/features/natural-treatments/
+  utter_psychiatrist:
+  - text: Please visit a Psychiatrist. Please do it because they can help
+      you to be a better version of yourself. Depression is very common nowadays,
+      so please don't be shy.
+  utter_did_that_help:
+  - text: Did that help?
+  utter_did_that_changed_mood:
+  - text: Did that changed your mood?
+  utter_happy:
+  - text: I'm happy to hear that.
+  - text: I'm pleased to hear that.
+  - text: That's fantastic to hear!
+  - text: That's impressive indeed.
+  - text: I'm delighted to hear.
+  - text: That's impressive.
+  utter_goodbye:
+  - text: Bye Bye.. Take care!!
+  utter_iamabot:
+  - text: I am Jaggu, your personal Mental health assistant. Technically,
+      I am a mood bot, developed by Sandip Palit and powered by RASA. You can find
+      him on https://www.linkedin.com/in/sandip-palit/
