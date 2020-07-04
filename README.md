@@ -1,4 +1,7 @@
 # Jaggu-Mood-Bot
+
+[![Project Demo](https://img.youtube.com/vi/hYySJznGivY/0.jpg)](https://www.youtube.com/watch?v=hYySJznGivY)
+
 **I am Jaggu, your personal Mental Health assistant.** Technically,
       I am a mood bot, developed by Sandip Palit and powered by RASA. <br> You can find
       him on https://www.linkedin.com/in/sandip-palit/
